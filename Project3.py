@@ -41,6 +41,7 @@ else:
 # Checks if the password has a perfect score
 if score==10:
     print("Your password is strong! 💪")
+    print(f"You have a perfect score {score}/10!😄🎉")
 else:
     print(f"Your password needs{string}.")      
-print(score)
+    print(f"The strength of your password is {score}/10. Try again😕")
